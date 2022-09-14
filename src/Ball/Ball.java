@@ -2,14 +2,11 @@ package Ball;
 
 public class Ball {
   // Variables
-  private double x;
-  private double y;
+  private double x = 0.0;
+  private double y = 0.0;
 
   // Constructor (overloaded)
-  public Ball() {
-    x = 0.0;
-    y = 0.0;
-  }
+  public Ball() {}
   public Ball(double newX, double newY) {
     x = newX;
     y = newY;
