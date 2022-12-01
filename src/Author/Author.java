@@ -23,10 +23,12 @@ public class Author {
   public char getGender() {
     return this.gender;
   }
+
   public void setEmail(String email) {
     this.email = email;
   }
+
   public String toString() {
-    return "Author: " + this.name + ", Email: " + this.email + ", Gender: " + this.gender;
+    return this.name + " (" + this.gender + ") at " + this.email;
   }
 }

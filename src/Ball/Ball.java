@@ -19,21 +19,23 @@ public class Ball {
   public double getY() {
     return this.y;
   }
-  public void setX(double newX) {
-    this.x = newX;
+
+  public void setX(double x) {
+    this.x = x;
   }
-  public void setY(double newY) {
-    this.y = newY;
+  public void setY(double y) {
+    this.y = y;
   }
-  public void setXY(double newX, double newY) {
-    this.x = newX;
-    this.y = newY;
+  public void setXY(double x, double y) {
+    this.x = x;
+    this.y = y;
   }
+
   public void move(double xDisp, double yDisp) {
     this.x += xDisp;
     this.y += yDisp;
   }
   public String toString() {
-    return "X position: " + this.x + ", Y position: " + this.y;
+    return "Ball @ ("+this.x+", "+this.y+").";
   }
 }
