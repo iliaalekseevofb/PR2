@@ -5,7 +5,7 @@ public class Ball {
   private double x = 0.0;
   private double y = 0.0;
 
-  // Constructor (overloaded)
+  // Constructors (overloaded)
   public Ball() {}
   public Ball(double newX, double newY) {
     x = newX;
