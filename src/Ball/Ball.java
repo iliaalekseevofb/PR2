@@ -35,6 +35,8 @@ public class Ball {
     this.x += xDisp;
     this.y += yDisp;
   }
+
+  @Override
   public String toString() {
     return "Ball @ ("+this.x+", "+this.y+").";
   }
