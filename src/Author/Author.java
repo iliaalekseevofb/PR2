@@ -2,9 +2,9 @@ package Author;
 
 public class Author {
   // Variables
-  private String name;
+  private final String name;
   private String email;
-  private char gender;
+  private final char gender;
 
   // Constructor
   public Author(String n, String e, char g) {
